@@ -357,7 +357,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n<div class=\"d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 mb-3\">\n  <h4 class=\"h4\">Dashboard</h4>\n  </div>\n  <div class=\"card-group\">\n      <div class=\"card\">\n          <div class=\"card-body\">\n  <form>\n    \n <section id=\"actions\" class=\"py-2 mb-4 bg-light\">\n      <div class=\"container\">\n        <div class=\"row\">\n          <div class=\"col-md-3\">\n           <div class=\"form-group\">\n                <label for=\"category\">Select</label>\n                <select class=\"form-control\" id=\"categorySelect\" [(ngModel)]=\"category\">\n                    <option selected>Select</option>\n                    <option value=\"app\">Year</option>\n                    <option value=\"infra\">Month</option>\n                    <option value=\"infra\">Week</option>\n                    <option value=\"infra\">Day</option>\n                </select>\n              </div>\n          </div>\n          <div class=\"form-group\" >\n            <label for=\"fromDate\">From Date:</label>\n            <input [(ngModel)]=\"fromDate\" type =\"date\" name=\"fromDate\" class=\"form-control\" id=\"fromDate\" ng-click=\"setfromDate($event.target.value)\">\n          </div>\n\n          <div class=\"form-group\">\n            <label for=\"toDate\">To Date:</label>\n            <input [(ngModel)]=\"toDate\" type =\"date\" name=\"toDate\" class=\"form-control\" id=\"toDate\" ng-click=\"settoDate($event.target.value)\">\n          </div>\n        \n         <!-- <div class=\"form-group\">\n            <label for=\"fromDate\">From Date:</label>\n            <p-calendar [(ngModel)]=\"fromDate\" [showIcon]=\"true\" ng-click=\"setfromDate($event.target.value)\"></p-calendar>\n        </div>\n\n        <div class=\"form-group\">\n          <label for=\"toDate\">To Date:</label>\n          <p-calendar [(ngModel)]=\"toDate\" [showIcon]=\"true\" ng-click=\"settoDate($event.target.value)\"></p-calendar>\n      </div> -->\n          <div class=\"col-md-2\">\n            <div class=\"form-group\">\n<button type=\"button\" class=\"btn btn-secondary\" (click)=\"getCommitforWeekDetails()\">Submit</button>\n                            \n            </div>\n            </div>\n          </div>\n      </div>\n  </section>\n  <div class=\"card\">\n      <div class=\"card-body\">\n\n          <p-chart type=\"line\" [data]=\"commitbyWeek_data\" [options]=\"options\" width=\"950px\" height=\"300px\"></p-chart>\n          \n      </div>\n  </div>\n  </form>\n  </div>\n  </div>\n  </div>");
+/* harmony default export */ __webpack_exports__["default"] = ("\n<div class=\"d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 mb-3\">\n  <h4 class=\"h4\">Dashboard</h4>\n  </div>\n  <div class=\"card-group\">\n      <div class=\"card\">\n          <div class=\"card-body\">\n  <form>\n    \n <section id=\"actions\" class=\"py-2 mb-4 bg-light\">\n      <div class=\"container\">\n        <div class=\"row\">\n          <div class=\"col-md-3\">\n           <div class=\"form-group\">\n                <label for=\"category\">Select</label>\n                <select class=\"form-control\" id=\"categorySelect\" [(ngModel)]=\"category\">\n                    <option selected>Select</option>\n                    <option value=\"infra\">Month</option>\n                </select>\n              </div>\n          </div>\n          <div class=\"form-group\" >\n            <label for=\"fromDate\">From Date:</label>\n            <input [(ngModel)]=\"fromDate\" type =\"date\" name=\"fromDate\" class=\"form-control\" id=\"fromDate\" ng-click=\"setfromDate($event.target.value)\">\n          </div>\n\n          <div class=\"form-group\">\n            <label for=\"toDate\">To Date:</label>\n            <input [(ngModel)]=\"toDate\" type =\"date\" name=\"toDate\" class=\"form-control\" id=\"toDate\" ng-click=\"settoDate($event.target.value)\">\n          </div>\n        \n         <!-- <div class=\"form-group\">\n            <label for=\"fromDate\">From Date:</label>\n            <p-calendar [(ngModel)]=\"fromDate\" [showIcon]=\"true\" ng-click=\"setfromDate($event.target.value)\"></p-calendar>\n        </div>\n\n        <div class=\"form-group\">\n          <label for=\"toDate\">To Date:</label>\n          <p-calendar [(ngModel)]=\"toDate\" [showIcon]=\"true\" ng-click=\"settoDate($event.target.value)\"></p-calendar>\n      </div> -->\n          <div class=\"col-md-2\">\n            <div class=\"form-group\">\n<button type=\"button\" class=\"btn btn-secondary\" (click)=\"getCommitforWeekDetails()\">Submit</button>\n                            \n            </div>\n            </div>\n          </div>\n      </div>\n  </section>\n  <div class=\"card\">\n      <div class=\"card-body\">\n\n          <p-chart type=\"line\" [data]=\"commitbyWeek_data\" [options]=\"options\" width=\"950px\" height=\"300px\"></p-chart>\n          \n      </div>\n  </div>\n  </form>\n  </div>\n  </div>\n  </div>");
 
 /***/ }),
 
@@ -409,7 +409,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div>\n        <fusioncharts\n          [type]=\"type\"\n          [width]=\"width\"\n          [height]=\"height\"\n          [dataSource]=\"dataSource\"\n        ></fusioncharts>\n      </div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("");
 
 /***/ }),
 
@@ -422,7 +422,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div>\n    <div class=\"row\">\n       <nav class=\"col-md-12 d-none d-md-block bg-light sidebar \">\n          <div class=\"sidebar-sticky\">\n             <ul class=\"nav flex-column\">\n             <li class=\"nav-item\">\n                <a class=\"nav-link\"  style=\"font-size:17px\"  href=\"/home\">\n                Home\n                </a>\n             </li>\n             <li class=\"nav-item\">\n                <a class=\"nav-link\"  style=\"font-size:17px\"   href=\"/byyear\" >\n                Dashboard\n                </a>\n             </li>\n\n             <li class=\"nav-item\">\n               <a class=\"nav-link\"  style=\"font-size:17px\"   href=\"/summary\">\n               Summary\n               </a>\n            </li>\n            <!-- <li class=\"nav-item\">\n                <a class=\"nav-link\"  style=\"font-size:17px\"   href=\"/commit\">\n                Commit\n                </a>\n             </li>\n             <li class=\"nav-item\">\n                <a class=\"nav-link\"  style=\"font-size:17px\"   href=\"/checkout\">\n                Checkout\n                </a>\n             </li>\n             <li class=\"nav-item\">\n                <a class=\"nav-link\"  style=\"font-size:17px\"   href=\"/pullrequest\">\n                Pull Request\n                </a>\n             </li>\n             <li class=\"nav-item\">\n                <a class=\"nav-link\"  style=\"font-size:17px\"   href=\"/unmergepull\">\n                Unmerge Pull\n                </a>\n             </li> -->\n             <li class=\"nav-item\">\n                <a class=\"nav-link collapsed text truncate\"  style=\"font-size:17px\" href=\"/reports\" data-toggle=\"collapse\" data-target=\"#reports_menu\"><span class=\"d-none d-sm-inline\">Reports</span></a>\n                <div class=\"nav-link collapsed\" id=\"reports_menu\" aria-expanded=\"false\" >\n                   <ul class=\"flex-column pl-4 nav\">\n                      <li class=\"nav-item\">\n                         <a class=\"nav-link p-1\" style=\"font-size:15px\" href=\"/commit\"><i class=\"fas fa-angle-right\"></i>\n                         Commit</a>\n                      </li>\n                      <li class=\"nav-item\">\n                         <a class=\"nav-link p-1\" style=\"font-size:15px\" href=\"/checkout\"> <i class=\"fas fa-angle-right\"></i>\n                         Checkout</a>\n                      </li>\n                      <li class=\"nav-item\">\n                         <a class=\"nav-link p-1\" style=\"font-size:15px\" href=\"/pullrequest\"><i class=\"fas fa-angle-right\"></i>\n                         Pull Request</a>\n                      </li>\n                      <li class=\"nav-item\">\n                          <a class=\"nav-link p-1\" style=\"font-size:15px\" href=\"/unmergepull\"><i class=\"fas fa-angle-right\"></i>\n                          Unmerge Pull</a>\n                       </li>\n                   </ul>\n                  </div>\n                  </li>\n                  \n                  </ul>\n                </div>\n                \n       </nav>\n       </div>\n    </div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div>\n    <div class=\"row\">\n       <nav class=\"col-md-12 d-none d-md-block bg-light sidebar \">\n          <div class=\"sidebar-sticky\">\n             <ul class=\"nav flex-column\">\n             <li class=\"nav-item\">\n                <a class=\"nav-link\"  style=\"font-size:17px\"  href=\"/home\">\n                Home\n                </a>\n             </li>\n             <li class=\"nav-item\">\n                <a class=\"nav-link\"  style=\"font-size:17px\"   href=\"/bymonth\" >\n                Dashboard\n                </a>\n             </li>\n\n             <li class=\"nav-item\">\n               <a class=\"nav-link\"  style=\"font-size:17px\"   href=\"/summary\">\n               Summary\n               </a>\n            </li>\n            <!-- <li class=\"nav-item\">\n                <a class=\"nav-link\"  style=\"font-size:17px\"   href=\"/commit\">\n                Commit\n                </a>\n             </li>\n             <li class=\"nav-item\">\n                <a class=\"nav-link\"  style=\"font-size:17px\"   href=\"/checkout\">\n                Checkout\n                </a>\n             </li>\n             <li class=\"nav-item\">\n                <a class=\"nav-link\"  style=\"font-size:17px\"   href=\"/pullrequest\">\n                Pull Request\n                </a>\n             </li>\n             <li class=\"nav-item\">\n                <a class=\"nav-link\"  style=\"font-size:17px\"   href=\"/unmergepull\">\n                Unmerge Pull\n                </a>\n             </li> -->\n             <!--<li class=\"nav-item\">\n                <a class=\"nav-link collapsed text truncate\"  style=\"font-size:17px\" href=\"/reports\" data-toggle=\"collapse\" data-target=\"#reports_menu\"><span class=\"d-none d-sm-inline\">Reports</span></a>\n                <div class=\"nav-link collapsed\" id=\"reports_menu\" aria-expanded=\"false\" >\n                   <ul class=\"flex-column pl-4 nav\">\n                      <li class=\"nav-item\">\n                         <a class=\"nav-link p-1\" style=\"font-size:15px\" href=\"/commit\"><i class=\"fas fa-angle-right\"></i>\n                         Commit</a>\n                      </li>\n                      <li class=\"nav-item\">\n                         <a class=\"nav-link p-1\" style=\"font-size:15px\" href=\"/checkout\"> <i class=\"fas fa-angle-right\"></i>\n                         Checkout</a>\n                      </li>\n                      <li class=\"nav-item\">\n                         <a class=\"nav-link p-1\" style=\"font-size:15px\" href=\"/pullrequest\"><i class=\"fas fa-angle-right\"></i>\n                         Pull Request</a>\n                      </li>\n                      <li class=\"nav-item\">\n                          <a class=\"nav-link p-1\" style=\"font-size:15px\" href=\"/unmergepull\"><i class=\"fas fa-angle-right\"></i>\n                          Unmerge Pull</a>\n                       </li>\n                   </ul>\n                  </div>\n                  </li>-->\n                  \n                  </ul>\n                </div>\n                \n       </nav>\n       </div>\n    </div>");
 
 /***/ }),
 
@@ -435,7 +435,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (" <!--****-->     \n <div id=\"accordion\">\n\n        <div class=\"card\">\n          <div class=\"card-header\">\n            <a class=\"card-link\" data-toggle=\"collapse\" href=\"#app_pro\">\n              Contributors list with additions, deletions, and commit counts\n            </a>\n          </div>\n          <div id=\"app_pro\" class=\"collapse show\" data-parent=\"#accordion\">\n            <div class=\"card-body\">\n              \n     \n              <div class=\"card-group\">\n      \n                  <div class=\"card\">\n                      <div class=\"card-body\">\n              \n                          <p-chart type=\"bar\" [data]=\"checkoutbymonth_data\" [options]=\"options\" width=\"900px\" height=\"300px\"></p-chart>\n                      </div>\n                  </div>\n              </div> \n            </div>\n          </div>\n        </div>\n      \n        <div class=\"card\">\n            <div class=\"card-header\">\n              <a class=\"card-link\" data-toggle=\"collapse\" href=\"#risk\">\n                Last year of commit activity data\n              </a>\n            </div>\n            <div id=\"risk\" class=\"collapse show\" data-parent=\"#accordion\">\n              <div class=\"card-body\">\n      \n               <!-- <app-commit></app-commit> -->\n                <div class=\"card-group\">\n      \n                    <div class=\"card\">\n                        <div class=\"card-body\">\n                \n                            <p-chart type=\"line\" [data]=\"commitbymonth_data\" [options]=\"options\" width=\"950px\" height=\"300px\"></p-chart>\n                            \n                        </div>\n                    </div>\n                </div>\n              </div>\n            </div>\n          </div>\n      \n          <div class=\"card\">\n            <div class=\"card-header\">\n              <a class=\"card-link\" data-toggle=\"collapse\" href=\"#KT\">\n                No. of additions and deletions per week\n              </a>\n            </div>\n            <div id=\"KT\" class=\"collapse show\" data-parent=\"#accordion\">\n              <div class=\"card-body\">\n                <!--<app-pullrequest></app-pullrequest>-->\n      \n                <div class=\"card-group\">\n      \n                    <div class=\"card\">\n                        <div class=\"card-body\">\n                \n                            <p-chart type=\"polarArea\" [data]=\"pullbymonth_data\" [options]=\"options\" width=\"950px\" height=\"300px\"></p-chart>\n                     \n                        </div>\n                    </div>\n                </div>\n      \n              </div>\n            </div>\n          </div>\n   </div>");
+/* harmony default export */ __webpack_exports__["default"] = (" \n \n <div class=\"d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 mb-3\">\n  <h4 class=\"h4\">Dashboard</h4>\n  </div>\n  <div class=\"card-group\">\n      <div class=\"card\">\n          <div class=\"card-body\">\n  <form>\n    \n <section id=\"actions\" class=\"py-2 mb-4 bg-light\">\n      <div class=\"container\">\n        <div class=\"row\">\n          <div class=\"col-md-3\">\n           <div class=\"form-group\">\n                \n                <select class=\"form-control\" id=\"categorySelect\" [(ngModel)]=\"category\">\n                    <option selected>Select</option>\n                    <option value=\"infra\">Month</option>\n                </select>\n              </div>\n          </div>\n        <!--  <div class=\"form-group\" >\n            <label for=\"fromDate\">From Date:</label>\n            <input [(ngModel)]=\"fromDate\" type =\"date\" name=\"fromDate\" class=\"form-control\" id=\"fromDate\" ng-click=\"setfromDate($event.target.value)\">\n          </div>\n\n          <div class=\"form-group\">\n            <label for=\"toDate\">To Date:</label>\n            <input [(ngModel)]=\"toDate\" type =\"date\" name=\"toDate\" class=\"form-control\" id=\"toDate\" ng-click=\"settoDate($event.target.value)\">\n          </div>\n        -->\n         <!-- <div class=\"form-group\">\n            <label for=\"fromDate\">From Date:</label>\n            <p-calendar [(ngModel)]=\"fromDate\" [showIcon]=\"true\" ng-click=\"setfromDate($event.target.value)\"></p-calendar>\n        </div>\n\n        <div class=\"form-group\">\n          <label for=\"toDate\">To Date:</label>\n          <p-calendar [(ngModel)]=\"toDate\" [showIcon]=\"true\" ng-click=\"settoDate($event.target.value)\"></p-calendar>\n      </div> -->\n          <div class=\"col-md-2\">\n            <div class=\"form-group\">\n<button type=\"button\" class=\"btn btn-secondary\" (click)=\"getCommitbyMonth()\">Submit</button>\n                            \n            </div>\n            </div>\n          </div>\n      </div>\n  </section>\n\n  </form>\n  </div>\n  </div>\n  </div>\n  <!--****-->     \n <div id=\"accordion\">\n\n        <div class=\"card\">\n          <div class=\"card-header\">\n            <a class=\"card-link\" data-toggle=\"collapse\" href=\"#app_pro\">\n             Number of Checkouts last month\n            </a>\n          </div>\n          <div id=\"app_pro\" class=\"collapse show\" data-parent=\"#accordion\">\n            <div class=\"card-body\">\n              \n     \n              <div class=\"card-group\">\n      \n                  <div class=\"card\">\n                      <div class=\"card-body\">\n              \n                          <p-chart type=\"bar\" [data]=\"checkoutbymonth_data\" [options]=\"options\" width=\"900px\" height=\"300px\"></p-chart>\n                      </div>\n                  </div>\n              </div> \n            </div>\n          </div>\n        </div>\n      \n        <div class=\"card\">\n            <div class=\"card-header\">\n              <a class=\"card-link\" data-toggle=\"collapse\" href=\"#risk\">\n                Numbers of Commits last month\n              </a>\n            </div>\n            <div id=\"risk\" class=\"collapse show\" data-parent=\"#accordion\">\n              <div class=\"card-body\">\n      \n               <!-- <app-commit></app-commit> -->\n                <div class=\"card-group\">\n      \n                    <div class=\"card\">\n                        <div class=\"card-body\">\n                \n                            <p-chart type=\"line\" [data]=\"commitbymonth_data\" [options]=\"options\" width=\"950px\" height=\"300px\"></p-chart>\n                            \n                        </div>\n                    </div>\n                </div>\n              </div>\n            </div>\n          </div>\n      \n          <div class=\"card\">\n            <div class=\"card-header\">\n              <a class=\"card-link\" data-toggle=\"collapse\" href=\"#KT\">\n                Number of Pull Requests Last Month\n              </a>\n            </div>\n            <div id=\"KT\" class=\"collapse show\" data-parent=\"#accordion\">\n              <div class=\"card-body\">\n                <!--<app-pullrequest></app-pullrequest>-->\n      \n                <div class=\"card-group\">\n      \n                    <div class=\"card\">\n                        <div class=\"card-body\">\n                \n                            <p-chart type=\"polarArea\" [data]=\"pullbymonth_data\" [options]=\"options\" width=\"950px\" height=\"300px\"></p-chart>\n                     \n                        </div>\n                    </div>\n                </div>\n      \n              </div>\n            </div>\n          </div>\n   </div>");
 
 /***/ }),
 
@@ -461,7 +461,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container\">\n    <div class=\"row\">\n                    <div class=\"col-md-2\">\n                    <div class=\"form-group\">\n                            \n                    <select  class=\"btn btn-secondary dropdown-toggle\" (click)=\"setTimeframe($event.target.value)\" style=\"width: 150px; \">&nbsp;&nbsp&nbsp;&nbsp;;\n                            <option selected>Select</option>\n                            <option value=\"lastweek\">Last week</option>\n                            <!--<option value=\"lastmonth\">Last Month</option>-->\n                     </select>\n                    \n    </div>\n    </div>\n   \n    \n                    <div class=\"form-group\">\n                    \n   <button type=\"button\" class=\"btn btn-secondary\" name = \"submit\" (click)=\"getActivitySummary()\">Submit</button>\n</div>       \n                  \n                   \n\n</div>\n</div>\n<div>\n<table class=\"table table-striped\" >\n        \n    <thead>\n            <tr>\n                    <th>Username</th>\n                    <th>Commit</th>\n                    <th>Checkout</th>\n                    <th>Pull Request</th>\n                    <th>Pull Validate</th>\n                    <th>Details</th>\n                    \n                </tr>\n            </thead>\n            <tbody>\n                    <tr *ngFor=\"let dat of response\" >\n                            <td>{{dat.userName}}</td>\n                            <td>{{dat.commitCount}}</td>\n                            <td>{{dat.checkoutCount}}</td>\n                            <td>{{dat.pullRequestCount}}</td>\n                            <td>{{dat.pullValidateCount}}</td>\n                           <td><button type=\"icon\" align-content = \"center\" id=\"modalBtn\" class=\"fa fa-info-circle\" aria-hidden=\"true\"\n                            (click) = \"getChartdata(dat.userName)\"  data-toggle=\"modal\" data-target=\"#chartModal\"  ></button></td>\n                          \n</tr>\n</tbody>\n</table>\n</div>\n\n<div class=\"modal fade\" id=\"chartModal\" role=\"dialog\">\n    <div class=\"modal-dialog modal-lg\">   \n      <!-- Modal content-->\n      <div class=\"modal-content\">\n        <div class=\"modal-header\">\n         \n          <h4 class=\"modal-title\" >Activity Details</h4>\n          <button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;</button>\n        </div>\n        <div class=\"modal-body\" >\n          <div  style=\"height: 100%; width: 100%\">\n                  <fusioncharts\n                  [width]=\"width\" \n                  [height]=\"height\"\n                  [type]=\"type\"\n                  [dataFormat]=\"dataFormat\"\n                  [dataSource]= \"datachart\"\n          >\n          </fusioncharts> \n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n\n\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container\">\n    <div class=\"row\">\n                    <div class=\"col-md-2\">\n                    <div class=\"form-group\">\n                            \n                    <select  class=\"btn btn-secondary dropdown-toggle\" (click)=\"setTimeframe($event.target.value)\" style=\"width: 150px; \">&nbsp;&nbsp&nbsp;&nbsp;;\n                            <option selected>Select</option>\n                            <option value=\"lastweek\">Last week</option>\n                            <!--<option value=\"lastmonth\">Last Month</option>-->\n                     </select>\n                    \n    </div>\n    </div>\n   \n    \n                    <div class=\"form-group\">\n                    \n   <button type=\"button\" class=\"btn btn-secondary\" name = \"submit\" (click)=\"getActivitySummary()\">Submit</button>\n</div>       \n                  \n                   \n\n</div>\n</div>\n<div>\n<table class=\"table table-striped\" >\n        \n    <thead>\n            <tr>\n                    <th>Username</th>\n                    <th>Commit</th>\n                    <th>Checkout</th>\n                    <th>Pull Request</th>\n                    <th>Pull Validate</th>\n                    <th>Details</th>\n                    \n                </tr>\n            </thead>\n            <tbody>\n                    <tr *ngFor=\"let dat of response\" >\n                            <td>{{dat.userName}}</td>\n                            <td>{{dat.commitCount}}</td>\n                            <td>{{dat.checkoutCount}}</td>\n                            <td>{{dat.pullRequestCount}}</td>\n                            <td>{{dat.pullValidateCount}}</td>\n                           <td><button type=\"icon\" align-content = \"center\" id=\"modalBtn\" class=\"fa fa-chart-bar\" aria-hidden=\"true\"\n                            (click) = \"getChartdata(dat.userName)\"  data-toggle=\"modal\" data-target=\"#chartModal\"  ></button></td>\n                          \n</tr>\n</tbody>\n</table>\n</div>\n\n<div class=\"modal fade\" id=\"chartModal\" role=\"dialog\">\n    <div class=\"modal-dialog modal-lg\">   \n      <!-- Modal content-->\n      <div class=\"modal-content\">\n        <div class=\"modal-header\">\n         \n          <h4 class=\"modal-title\" >Activity Details</h4>\n          <button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;</button>\n        </div>\n        <div class=\"modal-body\" >\n          <div  style=\"height: 100%; width: 100%\">\n                  <fusioncharts\n                  [width]=\"width\" \n                  [height]=\"height\"\n                  [type]=\"type\"\n                  [dataFormat]=\"dataFormat\"\n                  [dataSource]= \"datachart\"\n          >\n          </fusioncharts> \n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n\n\n");
 
 /***/ }),
 
@@ -1583,197 +1583,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomeComponent", function() { return HomeComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var fusioncharts__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! fusioncharts */ "./node_modules/fusioncharts/fusioncharts.js");
-/* harmony import */ var fusioncharts__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(fusioncharts__WEBPACK_IMPORTED_MODULE_2__);
 
 
-
-const dataUrl = 'https://s3.eu-central-1.amazonaws.com/fusion.store/ft/data/plotting-multiple-series-on-time-axis-data.json';
-const schema = [
-    {
-        name: 'Time',
-        type: 'date',
-        format: '%d-%b-%y'
-    },
-    {
-        name: 'Type',
-        type: 'string'
-    },
-    {
-        name: 'Sales Value',
-        type: 'number'
-    }
-];
 let HomeComponent = class HomeComponent {
-    constructor() {
-        this.type = 'timeseries';
-        this.width = '95%';
-        this.height = '500';
-        // This is the dataSource of the chart
-        this.dataSource = {
-            chart: {
-                caption: "Yearly Energy Production Rate",
-                subcaption: " Top 5 Developed Countries",
-                numbersuffix: " TWh",
-                showsum: "1",
-                plottooltext: "$label produces <b>$dataValue</b> of energy from $seriesName",
-                theme: "fusion",
-                drawcrossline: "1"
-            },
-            categories: [
-                {
-                    category: [
-                        {
-                            label: "Canada"
-                        },
-                        {
-                            label: "China"
-                        },
-                        {
-                            label: "Russia"
-                        },
-                        {
-                            label: "Australia"
-                        },
-                        {
-                            label: "United States"
-                        },
-                        {
-                            label: "France"
-                        }
-                    ]
-                }
-            ],
-            dataset: [
-                {
-                    seriesname: "Coal",
-                    data: [
-                        {
-                            value: "400"
-                        },
-                        {
-                            value: "830"
-                        },
-                        {
-                            value: "500"
-                        },
-                        {
-                            value: "420"
-                        },
-                        {
-                            value: "790"
-                        },
-                        {
-                            value: "380"
-                        }
-                    ]
-                },
-                {
-                    seriesname: "Hydro",
-                    data: [
-                        {
-                            value: "350"
-                        },
-                        {
-                            value: "620"
-                        },
-                        {
-                            value: "410"
-                        },
-                        {
-                            value: "370"
-                        },
-                        {
-                            value: "720"
-                        },
-                        {
-                            value: "310"
-                        }
-                    ]
-                },
-                {
-                    seriesname: "Nuclear",
-                    data: [
-                        {
-                            value: "210"
-                        },
-                        {
-                            value: "400"
-                        },
-                        {
-                            value: "450"
-                        },
-                        {
-                            value: "180"
-                        },
-                        {
-                            value: "570"
-                        },
-                        {
-                            value: "270"
-                        }
-                    ]
-                },
-                {
-                    seriesname: "Gas",
-                    data: [
-                        {
-                            value: "180"
-                        },
-                        {
-                            value: "330"
-                        },
-                        {
-                            value: "230"
-                        },
-                        {
-                            value: "160"
-                        },
-                        {
-                            value: "440"
-                        },
-                        {
-                            value: "350"
-                        }
-                    ]
-                },
-                {
-                    seriesname: "Oil",
-                    data: [
-                        {
-                            value: "60"
-                        },
-                        {
-                            value: "200"
-                        },
-                        {
-                            value: "200"
-                        },
-                        {
-                            value: "50"
-                        },
-                        {
-                            value: "230"
-                        },
-                        {
-                            value: "150"
-                        }
-                    ]
-                }
-            ]
-        };
-        this.fetchData();
-        // this.updateMyChartData();
-    }
-    fetchData() {
-        let jsonify = res => res.json();
-        let dataFetch = fetch(dataUrl).then(jsonify);
-        Promise.all([dataFetch]).then(res => {
-            let data = res[0];
-            let fusionTable = new fusioncharts__WEBPACK_IMPORTED_MODULE_2__["DataStore"]().createDataTable(data, schema); // Instance of DataTable to be passed as data in dataSource
-            this.dataSource.data = fusionTable;
-        });
-    }
+    constructor() { }
 };
 HomeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
