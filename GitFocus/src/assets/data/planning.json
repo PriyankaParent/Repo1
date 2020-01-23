@@ -1,0 +1,225 @@
+{
+	"data": [{
+			"id": "0",
+			"phase": "Initiation",
+			"gate": false,
+			"pass": true,
+			"acl": [{
+					"id": "1",
+					"activity": "Kick-off Meeting",
+					"iuser": "8",
+					"suser": "7",
+					"psd": "2019-11-07",
+					"ped": "2019-11-07",
+					"ps": "20",
+					"ph": "8",
+					"asd": "",
+					"aed": "",
+					"ah": "",
+					"status": "1",
+					"when": 2
+				},
+				{
+					"id": "2",
+					"activity": "PO Readiness",
+					"iuser": "8",
+					"suser": "7",
+					"psd": "2019-11-07",
+					"ped": "2019-11-07",
+					"ps": "20",
+					"ph": "2",
+					"asd": "",
+					"aed": "",
+					"ah": "",
+					"status": "1",
+					"when": 1
+				}
+			]
+		},
+		{
+			"id": "1",
+			"phase": "Planning",
+			"gate": false,
+      "pass": true,
+      "acl": [{
+        "id": "1",
+        "activity": "Prepare task wise schedule",
+        "iuser": "8",
+        "suser": "7",
+        "psd": "2019-11-07",
+        "ped": "2019-11-07",
+        "ps": "20",
+        "ph": "8",
+        "asd": "",
+        "aed": "",
+        "ah": "",
+        "status": "1",
+        "when": 2
+      },
+      {
+        "id": "2",
+        "activity": "Identify the team",
+        "iuser": "8",
+        "suser": "7",
+        "psd": "2019-11-07",
+        "ped": "2019-11-07",
+        "ps": "20",
+        "ph": "2",
+        "asd": "",
+        "aed": "",
+        "ah": "",
+        "status": "1",
+        "when": 1
+      }
+    ]
+  },
+		{
+			"id": "2",
+			"phase": "Knowedge Transfer",
+			"gate": true,
+      "pass": true,
+      "acl": [{
+        "id": "1",
+        "activity": "Kick-off Meeting",
+        "iuser": "8",
+        "suser": "7",
+        "psd": "2019-11-07",
+        "ped": "2019-11-07",
+        "ps": "20",
+        "ph": "8",
+        "asd": "",
+        "aed": "",
+        "ah": "",
+        "status": "1",
+        "when": 2
+      },
+      {
+        "id": "2",
+        "activity": "PO Readiness",
+        "iuser": "8",
+        "suser": "7",
+        "psd": "2019-11-07",
+        "ped": "2019-11-07",
+        "ps": "20",
+        "ph": "2",
+        "asd": "",
+        "aed": "",
+        "ah": "",
+        "status": "1",
+        "when": 1
+      }
+    ]
+		},
+		{
+			"id": "3",
+			"phase": "Reverse Knowedge Transfer",
+			"gate": true,
+      "pass": false,
+      "acl": [{
+        "id": "1",
+        "activity": "Kick-off Meeting",
+        "iuser": "8",
+        "suser": "7",
+        "psd": "2019-11-07",
+        "ped": "2019-11-07",
+        "ps": "20",
+        "ph": "8",
+        "asd": "",
+        "aed": "",
+        "ah": "",
+        "status": "1",
+        "when": 2
+      },
+      {
+        "id": "2",
+        "activity": "PO Readiness",
+        "iuser": "8",
+        "suser": "7",
+        "psd": "2019-11-07",
+        "ped": "2019-11-07",
+        "ps": "20",
+        "ph": "2",
+        "asd": "",
+        "aed": "",
+        "ah": "",
+        "status": "1",
+        "when": 1
+      }
+    ]
+		},
+		{
+			"id": "4",
+			"phase": "Shadow Support",
+			"gate": true,
+      "pass": false,
+      "acl": [{
+        "id": "1",
+        "activity": "Kick-off Meeting",
+        "iuser": "8",
+        "suser": "7",
+        "psd": "2019-11-07",
+        "ped": "2019-11-07",
+        "ps": "20",
+        "ph": "8",
+        "asd": "",
+        "aed": "",
+        "ah": "",
+        "status": "1",
+        "when": 2
+      },
+      {
+        "id": "2",
+        "activity": "PO Readiness",
+        "iuser": "8",
+        "suser": "7",
+        "psd": "2019-11-07",
+        "ped": "2019-11-07",
+        "ps": "20",
+        "ph": "2",
+        "asd": "",
+        "aed": "",
+        "ah": "",
+        "status": "1",
+        "when": 1
+      }
+    ]
+		},
+		{
+			"id": "5",
+			"phase": "Primary Support",
+			"gate": true,
+      "pass": false,
+      "acl": [{
+        "id": "1",
+        "activity": "Kick-off Meeting",
+        "iuser": "8",
+        "suser": "7",
+        "psd": "2019-11-07",
+        "ped": "2019-11-07",
+        "ps": "20",
+        "ph": "8",
+        "asd": "",
+        "aed": "",
+        "ah": "",
+        "status": "1",
+        "when": 2
+      },
+      {
+        "id": "2",
+        "activity": "PO Readiness",
+        "iuser": "8",
+        "suser": "7",
+        "psd": "2019-11-07",
+        "ped": "2019-11-07",
+        "ps": "20",
+        "ph": "2",
+        "asd": "",
+        "aed": "",
+        "ah": "",
+        "status": "1",
+        "when": 1
+      }
+    ]
+		}
+	]
+}

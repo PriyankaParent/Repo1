@@ -1,0 +1,79 @@
+<div class="container">
+    <div class="row">
+                    <div class="col-md-2">
+                    <div class="form-group">
+                            
+                    <select  class="btn btn-secondary dropdown-toggle" (click)="setTimeframe($event.target.value)" style="width: 150px; ">&nbsp;&nbsp&nbsp;&nbsp;;
+                            <option selected>Select</option>
+                            <option value="lastweek">Last week</option>
+                            <!--<option value="lastmonth">Last Month</option>-->
+                     </select>
+                    
+    </div>
+    </div>
+   
+    
+                    <div class="form-group">
+                    
+   <button type="button" class="btn btn-secondary" name = "submit" (click)="getActivitySummary()">Submit</button>
+</div>       
+                  
+                   
+
+</div>
+</div>
+<div>
+<table class="table table-striped" >
+        
+    <thead>
+            <tr>
+                    <th>Username</th>
+                    <th>Commit</th>
+                    <th>Checkout</th>
+                    <th>Pull Request</th>
+                    <th>Pull Validate</th>
+                    <th>Details</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                    <tr *ngFor="let dat of response" >
+                            <td>{{dat.userName}}</td>
+                            <td>{{dat.commitCount}}</td>
+                            <td>{{dat.checkoutCount}}</td>
+                            <td>{{dat.pullRequestCount}}</td>
+                            <td>{{dat.pullValidateCount}}</td>
+                           <td><button type="icon" align-content = "center" id="modalBtn" class="fa fa-chart-bar" aria-hidden="true"
+                            (click) = "getChartdata(dat.userName)"  data-toggle="modal" data-target="#chartModal"  ></button></td>
+                          
+</tr>
+</tbody>
+</table>
+</div>
+
+<div class="modal fade" id="chartModal" role="dialog">
+    <div class="modal-dialog modal-lg">   
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+         
+          <h4 class="modal-title" >Activity Details</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body" >
+          <div  style="height: 100%; width: 100%">
+                  <fusioncharts
+                  [width]="width" 
+                  [height]="height"
+                  [type]="type"
+                  [dataFormat]="dataFormat"
+                  [dataSource]= "datachart"
+          >
+          </fusioncharts> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+

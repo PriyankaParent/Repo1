@@ -1,0 +1,103 @@
+[
+   {
+      "name":"Team 1",
+      "yearsDto":[
+         {
+			"id": 1296266,
+			"comments": 10,
+			"additions": 99,
+			"deletions": 3,
+			"changed_files": 5,
+			"timeStamp": "January"
+         },
+         {
+			"id": 1296267,
+			"comments": 11,
+			"additions": 88,
+			"deletions": 2,
+			"changed_files": 2,
+			"timeStamp": "February"
+         },
+         {
+			"id": 1296268,
+			"comments": 10,
+			"additions": 77,
+			"deletions": 11,
+			"changed_files": 1,
+			"timeStamp": "March"
+         },
+		{
+			"id": 1296269,
+			"comments": 10,
+			"additions": 65,
+			"deletions": 4,
+			"changed_files": 4,
+			"timeStamp": "April"
+         },
+		{
+			"id": 1296270,
+			"comments": 10,
+			"additions": 65,
+			"deletions": 4,
+			"changed_files": 4,
+			"timeStamp": "May"
+         },
+		 {
+			"id": 1296271,
+			"comments": 10,
+			"additions": 65,
+			"deletions": 4,
+			"changed_files": 4,
+			"timeStamp": "June"
+         },
+		 {
+			"id": 1296272,
+			"comments": 10,
+			"additions": 65,
+			"deletions": 4,
+			"changed_files": 4,
+			"timeStamp": "July"
+         },
+		 		 {
+			"id": 1296273,
+			"comments": 10,
+			"additions": 65,
+			"deletions": 4,
+			"changed_files": 4,
+			"timeStamp": "August"
+         },
+		 		 {
+			"id": 1296274,
+			"comments": 10,
+			"additions": 65,
+			"deletions": 4,
+			"changed_files": 4,
+			"timeStamp": "September"
+         },
+		 		 {
+			"id": 1296275,
+			"comments": 10,
+			"additions": 65,
+			"deletions": 4,
+			"changed_files": 4,
+			"timeStamp": "October"
+         },
+		 		 {
+			"id": 1296276,
+			"comments": 10,
+			"additions": 65,
+			"deletions": 4,
+			"changed_files": 4,
+			"timeStamp": "November"
+         },
+		 		 {
+			"id": 1296277,
+			"comments": 10,
+			"additions": 65,
+			"deletions": 4,
+			"changed_files": 4,
+			"timeStamp": "December"
+         }
+      ]
+   }
+]

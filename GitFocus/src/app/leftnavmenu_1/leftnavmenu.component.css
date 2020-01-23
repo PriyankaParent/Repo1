@@ -1,0 +1,15 @@
+.nav-link[data-toggle].collapsed:after {
+    content: "▾";
+}
+.nav-link[data-toggle]:not(.collapsed):after {
+    content: "▴";
+}
+
+.sidebar-sticky{
+    
+    overflow: auto;
+}
+.sidebar-sticky a:hover {
+    color: #09a3e6;
+    
+  }

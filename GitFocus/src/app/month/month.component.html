@@ -1,0 +1,130 @@
+ 
+ 
+ <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 mb-3">
+  <h4 class="h4">Dashboard</h4>
+  </div>
+  <div class="card-group">
+      <div class="card">
+          <div class="card-body">
+  <form>
+    
+ <section id="actions" class="py-2 mb-4 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+           <div class="form-group">
+                
+                <select class="form-control" id="categorySelect" [(ngModel)]="category">
+                    <option selected>Select</option>
+                    <option value="infra">Month</option>
+                </select>
+              </div>
+          </div>
+        <!--  <div class="form-group" >
+            <label for="fromDate">From Date:</label>
+            <input [(ngModel)]="fromDate" type ="date" name="fromDate" class="form-control" id="fromDate" ng-click="setfromDate($event.target.value)">
+          </div>
+
+          <div class="form-group">
+            <label for="toDate">To Date:</label>
+            <input [(ngModel)]="toDate" type ="date" name="toDate" class="form-control" id="toDate" ng-click="settoDate($event.target.value)">
+          </div>
+        -->
+         <!-- <div class="form-group">
+            <label for="fromDate">From Date:</label>
+            <p-calendar [(ngModel)]="fromDate" [showIcon]="true" ng-click="setfromDate($event.target.value)"></p-calendar>
+        </div>
+
+        <div class="form-group">
+          <label for="toDate">To Date:</label>
+          <p-calendar [(ngModel)]="toDate" [showIcon]="true" ng-click="settoDate($event.target.value)"></p-calendar>
+      </div> -->
+          <div class="col-md-2">
+            <div class="form-group">
+<button type="button" class="btn btn-secondary" (click)="getCommitbyMonth()">Submit</button>
+                            
+            </div>
+            </div>
+          </div>
+      </div>
+  </section>
+
+  </form>
+  </div>
+  </div>
+  </div>
+  <!--****-->     
+ <div id="accordion">
+
+        <div class="card">
+          <div class="card-header">
+            <a class="card-link" data-toggle="collapse" href="#app_pro">
+             Number of Checkouts last month
+            </a>
+          </div>
+          <div id="app_pro" class="collapse show" data-parent="#accordion">
+            <div class="card-body">
+              
+     
+              <div class="card-group">
+      
+                  <div class="card">
+                      <div class="card-body">
+              
+                          <p-chart type="bar" [data]="checkoutbymonth_data" [options]="options" width="900px" height="300px"></p-chart>
+                      </div>
+                  </div>
+              </div> 
+            </div>
+          </div>
+        </div>
+      
+        <div class="card">
+            <div class="card-header">
+              <a class="card-link" data-toggle="collapse" href="#risk">
+                Numbers of Commits last month
+              </a>
+            </div>
+            <div id="risk" class="collapse show" data-parent="#accordion">
+              <div class="card-body">
+      
+               <!-- <app-commit></app-commit> -->
+                <div class="card-group">
+      
+                    <div class="card">
+                        <div class="card-body">
+                
+                            <p-chart type="line" [data]="commitbymonth_data" [options]="options" width="950px" height="300px"></p-chart>
+                            
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="card">
+            <div class="card-header">
+              <a class="card-link" data-toggle="collapse" href="#KT">
+                Number of Pull Requests Last Month
+              </a>
+            </div>
+            <div id="KT" class="collapse show" data-parent="#accordion">
+              <div class="card-body">
+                <!--<app-pullrequest></app-pullrequest>-->
+      
+                <div class="card-group">
+      
+                    <div class="card">
+                        <div class="card-body">
+                
+                            <p-chart type="polarArea" [data]="pullbymonth_data" [options]="options" width="950px" height="300px"></p-chart>
+                     
+                        </div>
+                    </div>
+                </div>
+      
+              </div>
+            </div>
+          </div>
+   </div>

@@ -1,0 +1,34 @@
+[
+   {
+      "name":"Team 1",
+      "monthsDto":[
+         {
+			"id": 4,
+			"checkout": 1,
+			"additions": 99,
+			"timeStamp": "Week1"
+ 
+         },
+         {
+			"id": 4,
+			"checkout": 2,
+			"additions": 99,
+			"timeStamp": "Week2"
+         },
+         {
+			"id": 4,
+			"checkout": 2,
+			"additions": 99,
+			"timeStamp": "Week3"
+         },
+		          {
+			"id": 4,
+			"checkout": 4,
+			"additions": 99,
+			"timeStamp": "Week4"
+         }
+     
+      ]
+   }
+]
+  

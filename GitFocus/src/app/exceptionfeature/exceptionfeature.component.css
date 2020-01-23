@@ -1,0 +1,12 @@
+.closed {
+    background-color: green;
+    
+}
+
+.open {
+    background-color: yellow;
+}
+
+.overload {
+    background-color: red;
+}

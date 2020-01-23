@@ -1,0 +1,90 @@
+<!--<div class="col-lg-12">
+      <section class="panel">
+         <header class="panel-heading">
+            <h3>Reports</h3>
+         </header>
+         <div class="panel-body">
+            <div class="tab-pane" id="chartjs">
+               <div class="row">
+                  
+                  <div class="col-lg-6">
+                     <section class="panel">
+                        <header class="panel-heading">
+                              <h2>Line</h2>
+                        </header>
+                        <div class="panel-body text-center">
+                           <p-chart type="line" [data]="line_data"></p-chart>
+                        </div>
+                     </section>
+                  </div>
+                  
+                  <div class="col-lg-6">
+                     <section class="panel">
+                        <header class="panel-heading">
+                           <h2>Bar</h2>
+                        </header>
+                        <div class="panel-body text-center">
+                              <p-chart type="bar"  height="300" width="100" [data]="bar_data" [options]="options">
+                                 </p-chart>
+                        </div>
+                     </section>
+                  </div>
+               </div>
+               
+            </div>
+         </div>
+      </section>
+</div>-->
+<header class="panel-heading">
+      <h3>Reports</h3>
+   </header>
+<div class="form-group row">
+      <div class="card-group">
+  
+          <div class="card">
+              <div class="card-body">
+                  <p-chart type="bar" [data]="bar_data" [options]="options" width="400px"  height="275px" ></p-chart>
+                
+              </div>
+          </div>
+  
+          <div class="card">
+              <div class="card-body">
+                  <p-chart type="line" [data]="line_data" width="400px"  height="275px" ></p-chart>
+              </div>
+          </div>
+
+          <div class="card">
+               <div class="card-body">
+                   <p-chart type="radar" [data]="radar_data" width="400px"  height="275px"></p-chart>
+               </div>
+           </div>
+      </div>
+</div>
+
+
+<div class="form-group row">
+      <div class="card-group">
+  
+          <div class="card">
+              <div class="card-body">
+                  <p-chart type="doughnut" [data]="doughnut_data" [options]="options" width="400px"  height="275px" ></p-chart>
+                
+              </div>
+          </div>
+  
+          <div class="card">
+              <div class="card-body">
+                  <p-chart type="pie" [data]="doughnut_data" width="400px"  height="275px" ></p-chart>
+              </div>
+          </div>
+
+          <div class="card">
+               <div class="card-body">
+                   <p-chart type="polarArea" [data]="polararea_data" width="400px"  height="275px"></p-chart>
+               </div>
+           </div>
+      </div>
+</div>
+ 
+ 

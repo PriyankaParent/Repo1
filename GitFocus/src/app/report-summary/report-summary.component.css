@@ -1,0 +1,43 @@
+th { 
+    text-align: center;
+    border: 1px solid black; 
+} 
+  
+.clickable { 
+    height: 50px; 
+    background: gray; 
+    border: 1px solid black; 
+} 
+  
+.clickable:hover { 
+    background: rgb(224, 247, 224); 
+} 
+
+td{
+    background: whitesmoke;
+    border : 0.5px solid black; 
+    text-align: center;
+}
+
+tr{
+    
+    border : 1px solid black; 
+}
+.modal-body
+{
+    width :900;
+    height :600;
+    margin: auto;
+
+}
+
+.modal-dialog
+{
+    width :900;
+    height :600;
+}
+
+modal-title
+{
+    text-align: center;
+}
